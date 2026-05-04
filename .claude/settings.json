@@ -1,0 +1,35 @@
+{
+	"permissions": {
+		"allow": [
+			"WebSearch",
+			"Bash(**)",
+			"Bash(git status)",
+			"Bash(git diff **)",
+			"Bash(git log **)",
+			"Bash(git add **)",
+			"Bash(git commit **)",
+			"Read(.claude/commands/**)",
+			"Read(.claude/archives/**)",
+			"Write(.claude/archives/**)",
+			"Edit(.claude/archives/**)",
+			"Read(./**)",
+			"Write(./**)",
+			"Edit(./**)"
+		],
+		"deny": [
+			"Write(../**)",
+			"Edit(../**)",
+			"Read(../**)",
+			"Edit(.env)",
+			"Edit(.env.**)",
+			"Edit(.claude/settings.json)",
+			"Edit(.claude/commands/**)",
+			"Bash(git push **)",
+			"Bash(git merge **)",
+			"Bash(git rebase **)",
+			"Bash(git reset **)",
+			"Bash(git checkout **)",
+			"Bash(git branch **)"
+		]
+	}
+}

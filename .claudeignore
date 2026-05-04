@@ -1,0 +1,38 @@
+# --- Dependencies ---
+node_modules/
+.pnpm-store/
+
+# --- Next.js Build Output ---
+.next/
+out/
+build/
+
+# --- Environment & Secrets ---
+.env
+*.env.*
+!.env.example
+.vercel/
+.capri/
+
+# --- Debug & Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- IDE & System ---
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Testing ---
+coverage/
+.nyc_output/
+
+# --- TypeScript ---
+*.tsbuildinfo

@@ -1,0 +1,106 @@
+# ************************************************************
+# Global ignore files
+# ************************************************************
+# ====================
+# Global
+# ====================
+*~
+*.autosave
+*.bak
+*.backup
+*.layout
+*.log
+*.orig
+*.save
+*.so
+*.stackdump
+*.suo
+*.swp
+*.tmp
+*.user
+*.user*
+._*
+.Spotlight-V100
+.Trashes
+.DS_Store
+.DS_Store?
+thumbs.db
+Thumbs.db
+
+
+# ====================
+# Directories
+# ====================
+[Bb]ackup
+[Bb]ackups
+[Bb]uild
+[Bb]builds
+[Dd]eployment
+**/[Bb]in
+**/[Bb]uild
+**/[Bb]uilds
+**/obj
+**/logs
+**/packages
+
+.idea/
+.vscode/
+.vs/
+
+
+# ====================
+# Files
+# ====================
+
+
+
+# ====================
+# Object / Project Files
+# ====================
+*.moc
+*.ncb
+*.o
+*.obj
+*.pdb
+*.pro.user*
+*.suo
+
+
+# ====================
+# NodeJS
+# ====================
+*node_modules
+*.env*.local
+*.env*
+
+
+# ====================
+# Python
+# ====================
+__pycache__
+.ipynb_checkpoints
+*.pyc
+
+
+# ====================
+# Rust
+# ====================
+*target
+
+
+
+# ************************************************************
+# Allows files
+# ************************************************************
+!*vcxproj.user
+!.vscode/*.code-snippets
+
+
+# ************************************************************
+# Specific ignore
+# ************************************************************
+**/dist
+**/migrations
+[Tt]mp
+[Tt]emp
+*version.json

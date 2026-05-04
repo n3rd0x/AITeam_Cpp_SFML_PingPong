@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"configurePresets": [
+		{
+			"name": "ucrt64",
+			"displayName": "MSYS2 UCRT64",
+			"generator": "Ninja",
+			"binaryDir": "${sourceDir}/build/${presetName}",
+			"cacheVariables": {
+				"CMAKE_PREFIX_PATH": "$env{MSYS_UCRT64}"
+			}
+		},
+		{
+			"name": "gcc",
+			"displayName": "GCC",
+			"generator": "Ninja",
+			"binaryDir": "${sourceDir}/build/${presetName}"
+		}
+	]
+}
