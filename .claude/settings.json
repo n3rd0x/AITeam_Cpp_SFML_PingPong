@@ -9,9 +9,9 @@
 			"Bash(git add **)",
 			"Bash(git commit **)",
 			"Read(.claude/commands/**)",
-			"Read(.claude/archives/**)",
-			"Write(.claude/archives/**)",
-			"Edit(.claude/archives/**)",
+			"Read(.claude/archives)",
+			"Write(.claude/archives)",
+			"Edit(.claude/archives)",
 			"Read(./**)",
 			"Write(./**)",
 			"Edit(./**)"
@@ -28,8 +28,7 @@
 			"Bash(git merge **)",
 			"Bash(git rebase **)",
 			"Bash(git reset **)",
-			"Bash(git checkout **)",
-			"Bash(git branch **)"
+			"Bash(git checkout **)"
 		]
 	}
 }
